@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "userId": {
+            "required": true,
+            "type": "number",
+            "title": "userId"
+        },
+        "title": {
+            "required": true,
+            "type": "string",
+            "title": "Title"
+        },
+        "body": {
+            "required": false,
+            "type": "string",
+            "title": "Body"
+        }
+    }
+}

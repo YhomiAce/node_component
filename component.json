@@ -26,6 +26,13 @@
             "metadata": {
                 "in": "./lib/schemas/getTodo.in.json"
             }
+        },
+        "createPost": {
+            "main": "./lib/actions/createPost.js",
+            "title": "Create Post",
+            "metadata": {
+                "in": "./lib/schemas/createPost.in.json"
+            }
         }
         
     }
