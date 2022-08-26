@@ -1,0 +1,10 @@
+{
+    "type": "object",
+    "properties": {
+        "todoId": {
+            "required": false,
+            "type": "number",
+            "title": "todoId"
+        }
+    }
+}

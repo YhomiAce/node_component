@@ -1,5 +1,5 @@
 {
-    "title": "Hook Component",
+    "title": "NanMckay connector",
     "description": "Upsert Hook logs and consolidated hooks",
     "docsUrl": "",
     "buildType": "docker",
@@ -19,6 +19,14 @@
             "metadata": {
                 "in": "./lib/schemas/upsertHook.in.json"
             }
+        },
+        "getTodos": {
+            "main": "./lib/actions/getTodo.js",
+            "title": "Get Todo Example",
+            "metadata": {
+                "in": "./lib/schemas/getTodo.in.json"
+            }
         }
+        
     }
 }
